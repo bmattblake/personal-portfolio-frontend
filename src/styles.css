@@ -66,7 +66,8 @@ h1 {
 }
 
 .contact-form {
-    width:35vw;
+    width: 100%;
+    max-width: 600px;
     padding: 30px;
 
     background-color: #232936;
@@ -97,8 +98,8 @@ h1 {
     .projects-text {
         text-align: center !important;
     }
-    .contact-form {
-        width: 70vw;
+    .about-me-descr {
+        padding-right: 0px;
     }
 }
 
