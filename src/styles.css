@@ -68,16 +68,33 @@ h1 {
     background-color: #232936;
     border-radius: 30px;
 }
+
+.contact-form button[type="submit"] {
+    width: 100%;
+    max-width: 275px; /* Limits button width on larger screens */
+}
 /* center mobile text */
-@media (max-width:767px) {
-    .projects-text {
+@media (max-width:767px) { 
+    .name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center !important;
+    }
+    .tagline {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         text-align: center !important;
     }
     .about-me-text {
         text-align: center !important;
     }
-    .tagline {
+    .projects-text {
         text-align: center !important;
+    }
+    .contact-form {
+        width: 70vw;
     }
 }
 
@@ -154,14 +171,13 @@ p {
 }
 
 @media (max-width:767px) {
-    .btn {
+    .main-btn {
         width: 275px;
     }
     .about-me-btn {
         display: flex;
         justify-content: center;
-        align-items: center;
-        
+        align-items: center;    
     }
     .btn-col {
         margin-top: 25px;
