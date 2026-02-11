@@ -3,8 +3,6 @@ body {
     background-color: #1c1f26;
 }
 
-
-
 .email {
     display: flex;
     justify-content: center;
@@ -49,8 +47,6 @@ h1 {
 }
 
 .contact {
-    /*height: 40vh;*/
-
     padding-top: 50px;
     padding-bottom: 50px;
 
@@ -139,7 +135,6 @@ p {
 
     border-radius: 30px;
     width: 275px;
-    
     height: 55px;
 
     font-size: 20pt;
@@ -147,7 +142,6 @@ p {
     margin-top: 10px;
 
     box-shadow: 0 6px 20px 0 rgba(0,0,0,0.2);
-    
 }
 
 .btn-icon {
@@ -155,7 +149,6 @@ p {
 }
 
 .btn-area {
-
     /* Change text color to dark blue (#232936) */
     filter: invert(15%) sepia(9%) saturate(1580%) hue-rotate(183deg) brightness(95%) contrast(96%);
 }
@@ -166,7 +159,6 @@ p {
         /* Change text color to coral (#ff7f50) */
         filter: invert(61%) sepia(60%) saturate(1744%) hue-rotate(326deg) brightness(102%) contrast(101%);
     }
-    
 }
 
 .centered {
@@ -190,7 +182,6 @@ p {
     .btn-area {
         padding: 0px;
     }
-    
 }
 
 a {
@@ -199,7 +190,7 @@ a {
 }
 
 .headshot {
-    height: 200px;
+    max-height: 200px;
     width: auto;
     border-radius: 50%;
     margin-top: 50px;
@@ -209,7 +200,9 @@ a {
 }
 
 .headshot-col {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
 }
